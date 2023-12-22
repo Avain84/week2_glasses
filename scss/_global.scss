@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,p,a{
+    font-family: 'Roboto','Noto Sans TC', sans-serif;
+    line-height: 1.5;
+}
+h1{
+    font-size: $font-size * 4;
+}
+h2{
+    font-size: $font-size * 3;
+}
+h3{
+    font-size: $font-size * 2.25;
+}
+h4{
+    font-size: $font-size * 1.5;
+}
+p{
+    font-size: $font-size;
+}
+a{
+    font-size: $font-size + 4px;
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    max-width: 1320px;
+    padding: 0 12px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
